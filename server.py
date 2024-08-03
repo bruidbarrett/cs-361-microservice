@@ -3,6 +3,7 @@ import requests
 
 ## Quote of the day - url "https://quotes.rest/qod?language=en"
 
+
 def server(ip: str = 'localhost', port: int = 6969):
     context = zmq.Context()
     svc_string = "**SERVER**"
